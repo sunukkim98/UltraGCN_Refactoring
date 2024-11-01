@@ -1,0 +1,9 @@
+torch
+torchvision
+numpy
+fire
+tqdm
+loguru
+fuxictr
+recbox
+tensorboard
