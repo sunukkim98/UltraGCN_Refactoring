@@ -22,15 +22,5 @@ This project requires Python 3.7.6. It is recommended to use a virtual environme
 ### Setting up the environment
 
 1. **Create a virtual environment with Python 3.7.6:**
-    ```bash
-    conda create -n myenv python=3.7.6
-    ```
-2. **Install required libraries:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    Use `requriements.txt` to install all dependencies.
-
-## Project Structure
-
-## Results
+   ```bash
+   conda create -n myenv python=3.7.6
