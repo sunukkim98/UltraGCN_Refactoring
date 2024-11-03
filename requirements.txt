@@ -7,3 +7,4 @@ loguru
 fuxictr
 recbox
 tensorboard
+datasets
