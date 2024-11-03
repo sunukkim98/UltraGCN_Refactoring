@@ -137,7 +137,7 @@ ui-tests/.yarn/*
 ui-tests/.pnp.*
 
 # datasets디렉토리 제외
-datasets/
+.datasets/
 
 # src/data.ipynb파일 제외
-src/data.ipynb
+.src/data.ipynb
