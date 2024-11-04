@@ -53,4 +53,12 @@ def main(model='mymodel',
 
     # Step 1. Load datasets
     data_path = Path(__file__).parents[1].absolute().joinpath("datasets")
-    train_data = MyDataset()
+    train_data = MyDataset(data_path=data_path,
+                           hugging_address="reczoo/AmazonBooks_m1",
+                           dataset_type="train")
+    test_data = MyDataset(data_path=data_path,
+                           hugging_address="reczoo/AmazonBooks_m1",
+                           dataset_type="test")
+    logger.info("The datasets are loaded where their statistics are as follows:")
+    logger.info("- shape of training instances: {}".format(train_data.data.shape))
+    logger.info("- shape of test instances: {}".format(train_data.data.shape))
